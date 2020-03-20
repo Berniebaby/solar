@@ -3,67 +3,66 @@
     "biometric-lock": {
       "text": {
         "primary": {
-          "default": "Fingerprint lock",
-          "ios": "Face ID / Touch ID"
+          "default": "指纹辨识",
+          "ios": "人面辨识 / 指纹辨识"
         },
         "secondary": {
-          "disabled": "Biometric authentication is disabled",
-          "enabled": "Biometric authentication is enabled",
-          "not-enrolled": "Configure biometric authentication in your operating system settings"
+          "disabled": "关闭指纹或人面辨识",
+          "enabled": "开启指纹或人面辨识",
+          "not-enrolled": "在你的操作系统上启用指纹或人面辨识。"
         }
       },
       "prompt": {
-        "enable": "Unlock your device once to enable the feature.",
-        "disable": "Unlock your device to disable the auto-lock."
+        "enable": "请为你的装置解锁，以开启此功能。",
+        "disable": "请为你的装置解锁，以关闭自动锁定功能。"
       }
     },
     "memo": {
       "text": {
-        "primary": "Show Memos",
+        "primary": "显示备忘便条",
         "secondary": {
-          "hidden": "Memos are hidden in the transaction overview",
-          "shown": "Memos are shown in the transaction overview"
+          "hidden": "备忘便条并未显示于交易纪录之中",
+          "shown": "备忘便条正显示于交易纪录之中"
         }
       }
     },
     "multi-sig": {
       "text": {
-        "primary": "Enable Multi-Signature",
+        "primary": "开户多重签名",
         "secondary": {
-          "enabled": "Multi-Signature features are enabled",
-          "disabled": "Multi-Signature features are disabled"
+          "enabled": "已启动多重签名",
+          "disabled": "已关闭多重签名"
         }
       }
     },
     "testnet": {
       "text": {
-        "primary": "Show Testnet Accounts",
+        "primary": "显示测试帳號",
         "secondary": {
-          "cannot-disable": "Cannot be disabled because you already added testnet accounts",
-          "hidden": "Testnet accounts are hidden",
-          "shown": "Testnet accounts are shown"
+          "cannot-disable": "由于你已开启测试网络账户，故此未能关闭此功能。",
+          "hidden": "已隐藏测试帳戶",
+          "shown": "已显示测试网络"
         }
       }
     },
     "trusted-services": {
       "text": {
-        "primary": "Manage Trusted Services",
-        "secondary": "Remove Trusted Services"
+        "primary": "管理授信服务",
+        "secondary": "删除授信服务"
       }
     }
   },
   "trusted-services": {
-    "info": "Trusted Services are web services that are allowed to interact with Solar wallet by requesting account data or proposing transactions. You can add a new service once it tries to interact with Solar.",
-    "service-selection": {
+    "info": "授权服务是一种网络服务。它可以索取帐户资料或提出交易建议。当它开始跟Solar交流，你就可以增添新的服务。": {
       "actions": {
-        "cancel": "Cancel",
-        "confirm": "Confirm"
+        "cancel": "取消",
+        "confirm": "确认"
       },
       "confirm": {
-        "title": "Confirm removal",
-        "text": "The service will be removed from your trust list. Are you sure?"
+        "title": "确认移除",
+        "text": "你确定要从您的授权清单移除此服务吗？"
       },
-      "no-services": "No trusted services"
+      "no-services": "没有已授权的服务"
     }
   }
 }
