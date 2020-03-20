@@ -1,200 +1,200 @@
 {
   "account-deletion": {
     "action": {
-      "cancel": "Cancel",
-      "confirm": "Confirm",
-      "delete": "Delete",
+      "cancel": "取消",
+      "confirm": "确认",
+      "delete": "删除",
       "merge": {
-        "long": "Merge into",
-        "short": "Merge"
+        "long": "合并",
+        "short": "合并"
       }
     },
     "confirm": {
-      "title": "Confirm deletion",
+      "title": "确认删除",
       "text": {
-        "confirm": "Are you sure?",
-        "delete": "The account will be deleted",
-        "merge": "and the remaining funds transferred"
+        "confirm": "你确定要删除吗?",
+        "delete": "本帐户将要被删除",
+        "merge": "剩余的资产将會被转移"
       }
     },
     "remaining-funds": {
-      "text": "Send remaining funds to"
+      "text": "剩余的资产转移给"
     },
     "text": {
-      "1": "Are you sure you want to delete the account \"{{accountName}}?\"",
-      "2": " Make sure to backup your private key or merge the funds into another account of yours, since there are still funds left!"
+      "1": "确定要删除账户 \"{{accountName}}吗?\"",
+      "2": " 由于帐户尚余资金，请备份您的私钥或将资金合并到您的另一个帐户!"
     },
-    "title": "Confirm Account Deletion"
+    "title": "确定删除账户"
   },
   "custom-trustline": {
     "action": {
-      "cancel": "Cancel",
+      "cancel": "取消",
       "trust": {
-        "long": "Trust Asset",
-        "short": "Trust"
+        "long": "授信资产",
+        "short": "授信"
       }
     },
     "textfield": {
       "code": {
-        "label": "Code"
+        "label": "代码"
       },
       "issuer": {
-        "label": "Issuer",
-        "placeholder": "Issuing account public key"
+        "label": "发行者",
+        "placeholder": "发行者公钥"
       },
       "limit": {
-        "label": "Limit (optional)",
-        "placeholder": "Limit trust in this asset / maximum balance to hold"
+        "label": "限制 (可选)",
+        "placeholder": "限制对该资产的信任/持有的最大余额"
       }
     },
-    "title": "Add Custom Asset"
+    "title": "添加自定义资产"
   },
   "export-key": {
     "action": {
-      "confirm": "Done",
+      "confirm": "完成",
       "reveal": {
-        "long": "Reveal key",
-        "short": "Click to reveal secret key"
+        "long": "显示私钥",
+        "short": "点击显示私钥"
       }
     },
     "info": {
       "backup": {
-        "title": "Back up your secret key now",
-        "paragraph-1": "The secret key backup is the only way to recover your funds if you forget your password or cannot access your device anymore.",
-        "paragraph-2": "Write down the key or print it. Keep it in a safe place and do not share it with anyone."
+        "title": "请立刻备份你的私钥",
+        "paragraph-1": "假若您忘记密码，或者不能使用此装置，私钥备份是您唯一一个恢复帐号及资产的方法。",
+        "paragraph-2": "请把您的私钥抄下来，不要告知他人，并把它保存到安全的地方。"
       },
       "export": {
-        "paragraph-1": "The secret key backup is the only way to recover your funds if you forget your password or cannot access your device anymore.",
-        "paragraph-2": "Write down the key or print it. Keep it in a safe place and do not share it with anyone."
+        "paragraph-1": "假若您忘记密码，或者不能使用此装置，私钥备份是您唯一一个恢复帐号及资产的方法。",
+        "paragraph-2": "请把您的私钥抄下来，不要告知他人，并把它保存到安全的地方"
       },
-      "secret-key": "Write down the key on paper and store it in a safe place."
+      "secret-key": "请把您的私钥抄下来，不要告知他人，并把它保存到安全的地方。"
     },
     "textfield": {
       "password": {
-        "label": "Password"
+        "label": "密码"
       }
     },
     "title": {
-      "default": "Export Secret Key",
-      "initial-backup": "Secret Key Backup"
+      "default": "显示私钥",
+      "initial-backup": "备份私钥"
     }
   },
   "manage-signers": {
     "action": {
       "add-co-signer": {
-        "long": "Add Co-Signer",
-        "short": "Signer"
+        "long": "添加签名者",
+        "short": "签名者"
       },
-      "cancel": "Cancel",
+      "cancel": "取消",
       "apply": {
-        "long": "Apply changes",
-        "short": "Apply"
+        "long": "确定更改",
+        "short": "确定"
       }
     },
     "signers-editor": {
       "list": {
         "item": {
-          "weight": "Weight",
-          "local-key": "Local key"
+          "weight": "签名值",
+          "local-key": "本账户"
         }
       },
       "validation": {
-        "existing-signer": "Cannot add existing signer.",
-        "integer-required": "Must be an integer.",
-        "invalid-stellar-address": "Expected a public key or stellar address."
+        "existing-signer": "签名者已经存在。",
+        "integer-required": "必须为整数。",
+        "invalid-stellar-address": "必须为公钥。"
       }
     },
     "textfield": {
       "weight-threshold": {
         "explanation": {
-          "required-signatures": "Every transaction needs to be signed by {{amount}} signers",
-          "required-weight": "Every transaction needs to be signed by signers with a combined key weight of {{amount}}"
+          "required-signatures": "每个交易都必须得到 {{amount}} 个签名",
+          "required-weight": "每个交易都必须得到的签名值： {{amount}} "
         },
         "label": {
-          "required-signatures": "Required signatures",
-          "required-weight": "Required key weight"
+          "required-signatures": "须要的签名数量",
+          "required-weight": "须要的签名值"
         }
       }
     },
     "title": {
-      "long": "Manage Signers",
-      "short": "Manage Account Signers"
+      "long": "管理签名者",
+      "short": "管理账户的签名者"
     },
     "validation": {
-      "no-signers": "No signers left. Don't lock yourself out!",
-      "invalid-weight-type": "Weight must be an integer",
-      "threshold-higher-than-weights": "Threshold higher than combined key weights",
-      "no-threshold": "Please set a threshold"
+      "no-signers": "已经没有签名者了!",
+      "invalid-weight-type": "签名值必须为整数",
+      "threshold-higher-than-weights": "所需要签名值高于所有签名值的总和。",
+      "no-threshold": "请设置所需要签名值"
     }
   },
   "set-password": {
     "action": {
       "change-password": {
-        "long": "Change password",
-        "short": "Change"
+        "long": "更改密码",
+        "short": "更改"
       },
       "remove-password": {
-        "long": "Remove password",
-        "short": "Remove"
+        "long": "移除密码",
+        "short": "移除"
       }
     },
     "notification": {
-      "password-changed": "Password changed.",
-      "password-set": "Password set.",
-      "password-removed": "Password removed."
+      "password-changed": "密码已变更。",
+      "password-set": "已设置密码。",
+      "password-removed": "已删除密码。"
     },
     "textfield": {
       "prev-password": {
-        "label": "Current password"
+        "label": "现在的密码"
       },
       "next-password": {
-        "label": "New password"
+        "label": "新密码"
       },
       "next-password-repeat": {
-        "label": "Repeat new password"
+        "label": "请重新输入新密码"
       }
     },
     "title": {
-      "change-password": "Change Password",
-      "set-password": "Set Password"
+      "change-password": "更改密码",
+      "set-password": "设置密码"
     },
     "validation": {
-      "next-password-missing": "Enter a password or set \"remove password\".",
-      "next-password-repeat-missing": "Please repeat the password.",
-      "passwords-no-match": "Password does not match",
-      "previous-password-missing": "Current password is missing."
+      "next-password-missing": "输入密码或设置 \"移除密码\".",
+      "next-password-repeat-missing": "请重新输入密码。",
+      "passwords-no-match": "密码不相符",
+      "previous-password-missing": "请输入现在的密码。"
     }
   },
   "settings": {
     "delete-account": {
       "text": {
-        "primary": "Merge or Delete Account"
+        "primary": "合并或删除账户"
       }
     },
     "export-secret-key": {
       "text": {
-        "primary": "Export Secret Key",
-        "secondary": "Decrypt and show private key"
+        "primary": "查看私钥",
+        "secondary": "解密并显示私钥"
       }
     },
     "multi-sig": {
       "text": {
-        "primary": "Multi-Signature",
+        "primary": "多重签名",
         "secondary": {
-          "short": "Manage co-signers",
-          "long": "Make account multi-signature and manage co-signers"
+          "short": "管理签名者",
+          "long": "使用多重签名功能并管理签名者"
         }
       }
     },
     "set-password": {
       "text": {
         "primary": {
-          "account-protected": "Change Password",
-          "account-not-protected": "Set Password"
+          "account-protected": "更改密码",
+          "account-not-protected": "设置密码"
         },
         "secondary": {
-          "account-protected": "Your account is secure, protected by a password",
-          "account-not-protected": "Your account is not protected"
+          "account-protected": "您的帐户是安全並且受密码保护的",
+          "account-not-protected": "您的账户未受到保护"
         }
       }
     }
