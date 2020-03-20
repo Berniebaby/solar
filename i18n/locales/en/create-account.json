@@ -1,62 +1,63 @@
 {
   "actions": {
-    "cancel": "Cancel",
-    "confirm": "Confirm",
+    "cancel": "取消",
+    "confirm": "确认",
     "create": {
-      "long": "Create Account",
-      "short": "Create"
+      "long": "开启账户",
+      "short": "开启"
     },
     "import": {
-      "long": "Import Account",
-      "short": "Import"
+      "long": "导入账户",
+      "short": "导入"
     }
   },
   "base-name": {
-    "mainnet": "My Account",
-    "testnet": "My Testnet Account"
+    "mainnet": "我的账户",
+    "testnet": "我的测试账户"
   },
   "confirm": {
-    "text": "You are about to create an account without password protection. Anyone that has access to your device will have access to your account funds. <1 /> <3 /> Are you sure you want to continue without setting up a password?",
-    "title": "Continue without password"
+    "text": "{
+      "text": "你将要开启一个没有密码保护的新帐户。所有能够打开你这个装置的人将可以使用这个帐户的款项。你确定不使用密码吗？",
+    "title": "确定不使用密码"
   },
   "header": {
     "placeholder": {
-      "mainnet": "New Account",
-      "testnet": "New Testnet Account"
+      "mainnet": "新账户",
+      "testnet": "新测试账户"
     }
   },
   "inputs": {
     "import": {
-      "helper-text": "A Stellar secret key is 56 alphanumeric characters long and starts with an S",
+      "helper-text": "私钥由56个字母组成，第一个字母必定是S",
       "placeholder": "SABCDEFGH…",
-      "label": "Secret key",
-      "title": "Import Existing"
+      "label": "私钥",
+      "title": "导入现存的钱包"
     },
     "password": {
-      "label": "Password",
-      "placeholder": "Enter a password"
+      "label": "密码",
+      "placeholder": "输入密码"
     },
     "password-repeat": {
-      "label": "Repeat password",
-      "placeholder": "Repeat your password"
+      "label": "重复密码",
+      "placeholder": "重复输入密码"
     }
   },
   "options": {
     "import": {
-      "label": "Import secret key",
-      "description": "Restore account from backup"
+      "label": "导入私钥",
+      "description": "从备份还原帐户"
     },
     "password": {
-      "label": "Password protection",
-      "protected": "Your secret key will be encrypted",
-      "unprotected": "Your secret key will be unprotected"
+      "label": "密码保护",
+      "protected": "您的私钥将被加密",
+      "unprotected": "您的私钥将不受保护"
     }
   },
   "validation": {
-    "invalid-key": "Invalid stellar private key.",
-    "no-account-name": "No account name has been entered.",
-    "no-password": "No password has been entered.",
-    "password-no-match": "Password does not match.",
-    "same-account": "Already added this account."
+    "invalid-key": "密钥无效",
+    "no-account-name": "未输入账户名",
+    "no-password": "未输入密码",
+    "password-no-match": "密码不匹配",
+    "same-account": "已添加此帐户"
   }
 }
